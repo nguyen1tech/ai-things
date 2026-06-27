@@ -4,13 +4,11 @@ These are common instructions for Bac's agents cross all scenarios
 
 ## General Guidelines
 
+- When reporting information to me, be extremely concise and sacrifice grammar for the sake of concision
 - When writing a commit messages, NEVER auto-add your agent name as co-author
 - When making technical decisions, do not give much weight to development cost. Instead, prefer quality, simplicity, robustness, scalability, and long-term maintainability.
 
-## Karpathy Guidelines
-
-Behavioral guidelines to reduce common LLM coding mistakes derived from Andrej Karpathy's observations on LLM coding pitfalls
-**Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
+## Coding Guidelines
 
 ### 1. Think Before Coding
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
