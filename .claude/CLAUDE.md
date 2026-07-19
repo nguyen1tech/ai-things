@@ -2,16 +2,17 @@
 
 ## General Guidelines
 
-- When reporting information to me, be extremely concise and sacrifice grammar for the sake of concision
 - When writing a commit messages, NEVER auto-add your agent name as co-author
 - When making technical decisions, do not give much weight to development cost. Instead, prefer quality, simplicity, robustness, scalability, and long-term maintainability.
 
 ## Working Style
 
-- State assumption before editing.
-- If the task is ambiguous, ask clarifying questions.
-- Prefer the smallest change that solves the problem.
-- Do not refactor unrelated code unless asked.
+- Always begin by thinking deeply before you code; explicitly stating your assumptions,surfacing tradeoffs, and halting to ask for clarification the moment you encounter ambiguity
+rather than guessing silently.
+- Write only the absolute minimum amount of code required to solve the immediate problem strictly avoiding speculative features, unrequested abstractions, or predictive configurations.
+- When editing existing code, make highly surgical changes by restricting your updates only
+to the exact lines necessary to fulfill the request, maintaining the existing style perfectly, and leaving adjacent, unbroken code completely untouched unless your changes directly orphaned an import or variable.
+- Approach every task through goal-driven execution by breaking it down into a clear,step-by-step plan with strong success criteria, such as writing a reproducing or failing test first and independently looping through verification until that specific goal is strictly met.
 
 ## Communication
 
